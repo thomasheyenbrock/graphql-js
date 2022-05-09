@@ -284,6 +284,8 @@ export {
   defaultFieldResolver,
   defaultTypeResolver,
   responsePathAsArray,
+  getArgumentValues,
+  getVariableValues,
   getDirectiveValues,
   subscribe,
   createSourceEventStream,
@@ -344,6 +346,7 @@ export {
   formatError,
 } from './error/index';
 export type {
+  GraphQLErrorOptions,
   GraphQLFormattedError,
   GraphQLErrorExtensions,
 } from './error/index';
